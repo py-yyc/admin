@@ -9,6 +9,12 @@ subscription fee to remain organizer. The subscription fee is not
 refundable or transferable if there’s a change in organizers; the new
 organizer has to pay for their own subscription.
 
+## Assembly CS
+
+Not really an account, but we have the “4th Tuesday of every month”
+slot at [Assembly CS](http://www.assemblycs.com). See the contact info
+[here](secrets/assembly.gpg).
+
 ## Trello
 
 https://trello.com/pyyyc
