@@ -15,6 +15,11 @@ easy to cc: people so that everyone’s in the loop.
 
 ## Two weeks before your talk
 
+If your laptop doesn’t have a mini DisplayPort or HDMI port, please get and
+test an HDMI adapter before your talk. The projector also has a VGA port,
+but if you want to use it for your talk, you’ll need to bring a cable or
+ask the organizers to bring one.
+
 Please send a short abstract of your talk no more than two weeks before the
 date. If you have a slide or interesting visual related to your talk that
 could go in the meetup announcement to get people’s attention, please send
