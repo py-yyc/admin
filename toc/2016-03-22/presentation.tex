@@ -1,0 +1,124 @@
+\documentclass[xcolor=svgnames,17pt]{beamer}
+
+\usepackage[export]{adjustbox}
+\usepackage{bookmark}
+\usepackage{colortbl} \arrayrulecolor[gray]{0.7}
+\usepackage{microtype}
+\usepackage{pgfpages}
+\usepackage{rotating}
+\usepackage{textcomp}
+\usepackage{tabularx}
+\usepackage{xspace}
+
+\usepackage{fontspec}
+
+\hypersetup{hidelinks,pdfpagemode=}
+
+\urlstyle{same}
+
+\newcommand*{\sizefont}[1]{%
+    \ifcase#1\relax
+    \or \tiny
+    \or \scriptsize
+    \or \footnotesize
+    \or \small
+    \or \normalsize
+    \or \large
+    \or \Large
+    \or \LARGE
+    \or \huge
+    \or \Huge
+    \fi}
+
+%%
+
+\newcommand*{\mybullet}{\tikz[baseline=-.6ex]\node[%
+    draw,circle,inner sep = -0.15ex,fill]{.};\xspace}
+
+\newcommand*{\plainfooter}{%
+    \setbeamertemplate{footline}{
+        \usebeamercolor[fg]{page number in head/foot}%
+        \usebeamerfont{page number in head/foot}%
+        \hspace*{1ex}\insertframenumber\,/\,\inserttotalframenumber\vskip2pt}}
+
+\makeatletter
+\def\alphslide{\@alph{\intcalcAdd{1}{\intcalcSub{\thepage}{\beamer@framestartpage}}}}
+\newcommand*{\plainstepfooter}{
+    \setbeamertemplate{footline}{
+        \usebeamercolor[fg]{page number in head/foot}%
+        \usebeamerfont{page number in head/foot}%
+        \hspace*{1ex}\insertframenumber\alphslide\,/\,\inserttotalframenumber\vskip2pt}}
+\makeatother
+
+\setbeamertemplate{note page}{
+    \sizefont{3}
+    \setlength{\parskip}{10pt}
+    \insertnote
+    \par}
+
+\setbeamertemplate{navigation symbols}{}
+\setbeamerfont{title}{size=\LARGE}
+\setbeamerfont{frametitle}{size=\LARGE}
+\setbeamerfont{framesubtitle}{size=\normalsize}
+
+\newcommand*{\tocsection}[1]{\pdfbookmark[2]{#1}{#1}}
+
+%%
+
+\title{PyYYC 2016-03-22}
+
+\author{\texorpdfstring{%
+    Andrew Neitsch}{Andrew Neitsch}}
+
+\begin{document}
+
+\tocsection{Title page}
+
+\begin{frame}[plain]{PyYYC 2016-03-22}
+
+\begin{tabular}{rl}
+5:45 & Doors
+\\[0.5ex]
+\hline \\[-2ex]
+6:00 & Talks \\
+• & PyData Meetup announcement \\
+• & Generators \\
+• & Flask-Socket.io
+\\[0.5ex]
+\hline \\[-2ex]
+& Project time — chat app?
+\\[0.5ex]
+\hline \\[-2ex]
+& \small Next month
+\end{tabular}
+\end{frame}
+
+\begin{frame}[plain]{Thank you to our sponsor}
+\includegraphics[center]{assembly.pdf}
+\end{frame}
+
+\begin{frame}{Admin stuff}
+\only<1>{Tutoring}
+\only<2-3>{Who
+\begin{itemize}
+\item Has done something cool with Python?
+\item Has had to figure out some messy details or unexpected behaviour of
+something in Python?
+\item Wants to share a useful technique or library?
+\end{itemize}
+}
+\only<3>{
+\alert{We’d love to see your talk about it!}
+}
+\only<4>{
+Talk suggestions:
+\begin{itemize}
+\item Introduction to web scraping \\ mechanize and BeautifulSoup
+\item Selenium WebDriver
+\item aync + await in Python 3.5
+\item Graphite
+\end{itemize}
+}
+\end{frame}
+
+\end{document}
