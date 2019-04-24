@@ -1,0 +1,90 @@
+:icons: font
+:stem:
+:revealjsdir: https://unpkg.com/reveal.js
+:revealjs_theme: white
+:revealjs_history: true
+:source-highlighter: highlightjs
+:highlightjs-theme: https://unpkg.com/highlight.js/styles/github-gist.css
+:customcss: custom.css
+
+= PyYYC, April 2019
+
+Using Jupyter, with an intro to machine learning
+
+*Kai Lukowiak*
+
+== Thank you to our sponsors:
+
+[big]#ArtsMan#
+
+image:assembly.png[]
+
+== Upcoming event: Polyglot YYC
+
+https://polyglotyyc.ca[polyglotyyc.ca]
+
+Saturday, June 2
+
+=== $20 including lunch
+
+image::polyglot-map.png[background,size=cover,background-opacity=0.5]
+
+== Python feature: f-strings
+
+Prefix a string with `f` and you can refer to variables directly
+
+[source,python]
+----
+x = 1
+print(f'x is {x}') # <1>
+----
+
+prints
+
+----
+x is 1
+----
+
+Python 3.6+, see https://www.python.org/dev/peps/pep-0498/[PEP 498]
+
+=== Expressions
+
+[source,python]
+----
+total = 12
+count = 5
+print(f'average is {total / count}')
+----
+
+prints
+
+----
+average is 2.4
+----
+
+=== Formatting
+
+After the variable or expression, you can include a colon and a format
+string:
+
+[source,python]
+----
+print(f'average is {total / count:.2f}') # <1>
+
+now = datetime.datetime.utcnow()
+print(f'today is {now:%Y-%m-%d}') # <2>
+----
+<1> prints `average is 2.40`, instead of `2.4`
+<2> prints `today is 2019-04-24`
+
+:dunder: __
+
+== PyYYC planning
+
+[%step]
+* Looking for sponsors
+* Thanks to everyone who answered our call for speakers! Currently looking
+for a speaker for July
+* And an additional organizer
+
+== Today’s talk
