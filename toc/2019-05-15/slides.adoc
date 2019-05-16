@@ -15,7 +15,9 @@ Python for a beginner, by a beginner
 
 == Thank you to our sponsors:
 
-image:assembly.png[]
+image:assembly.png[,400]
+
+image:teamit-logo.png[,400]
 
 Please let us know if you’re interested in sponsoring / have suggestions
 for possible sponsors
