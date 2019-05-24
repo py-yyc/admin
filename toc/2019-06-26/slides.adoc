@@ -1,0 +1,75 @@
+:icons: font
+:stem:
+:revealjsdir: https://unpkg.com/reveal.js
+:revealjs_theme: white
+:revealjs_history: true
+:source-highlighter: highlightjs
+:highlightjs-theme: https://unpkg.com/highlight.js/styles/github-gist.css
+:customcss: custom.css
+
+= PyYYC, May 2019
+
+Using Python to extend ArcMap for grizzly bear habitat mapping
+
+*Daniel Wismer*
+
+== Thank you to our sponsors:
+
+image:assembly.png[,400]
+
+Please let us know if you’re interested in sponsoring / have suggestions
+for possible sponsors
+
+== Polyglot YYC
+
+https://polyglotyyc.ca[polyglotyyc.ca]
+
+Sunday, June 2
+
+Did anyone go? How was it?
+
+=== PyCharm License Raffle
+
+1-year subscription
+
+[small2]#or AppCode, CLion, DataGrip, GoLand,
+IntelliJ IDEA Ultimate, PhpStorm, ReSharper, Rider, RubyMine, or WebStorm#
+
+“in order to continue receiving free coupons … winners [need to] actively
+redeem their free licenses”
+
+https://www.meetup.com/py-yyc/events/zfwgzqyzjbjc/attendees/[Attendees]
+
+image::jetbrains.svg[background,size=cover,background-opacity=0.5]
+
+== Python feature: `enumerate`
+
+[source,python]
+----
+subjects = ('Python', 'Coding', 'Tips')
+
+for i, subject in enumerate(subjects):
+    print(i, subject)
+----
+
+prints
+
+----
+0 Python
+1 Coding
+2 Tips
+----
+
+Python 2.3+, see https://www.python.org/dev/peps/pep-0279/[PEP 279]
+
+== Library of the month: ...
+
+...
+
+== PyYYC future
+
+[%step]
+* Plan for next month: grizzly bear habitat mapping
+* Then break until September
+
+== Today’s talk
