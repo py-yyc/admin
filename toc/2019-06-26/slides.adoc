@@ -1,10 +1,10 @@
 :icons: font
 :stem:
-:revealjsdir: https://unpkg.com/reveal.js
+:revealjsdir: https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0
 :revealjs_theme: white
 :revealjs_history: true
 :source-highlighter: highlightjs
-:highlightjs-theme: https://unpkg.com/highlight.js/styles/github-gist.css
+:highlightjs-theme: https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/styles/github-gist.min.css
 :customcss: custom.css
 
 = PyYYC, June 2019
