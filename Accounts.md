@@ -41,9 +41,21 @@ people can find you.
 
 ## pyyyc.org
 
+The website is currently a static site, served as a checkout of:
+
+https://github.com/py-yyc/py-yyc.github.com
+
+There is a cronjob that syncs from github every five minutes, so just
+commit to the repo to update the website. Cronjob errors go to
+organizers@pyyyc.org; you can check https://pyyyc.org/last-sync to see if
+the cronjob is still working.
+
+It would be pretty straightforward to configure the current host to run a
+Django site instead.
+
 This domain is registered and hosted at DreamHost, under Andrew’s account.
-Kurt and Mike also have access to this domain, in case the domain ever
-needs to be transferred.
+Carson also has access to administer the domain and unix user in the
+dreamhost panel, allowing the domain to be transferred.
 
 ## Twitter
 
