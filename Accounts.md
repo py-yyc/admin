@@ -11,7 +11,7 @@ organizer has to pay for their own subscription.
 
 ## Assembly CS
 
-Not really an account, but we have the “4th Tuesday of every month”
+Not really an account, but we have the “4th Wednesday of every month”
 slot at [Assembly CS](http://www.assemblycs.com). See the contact info
 [here](secrets/assembly.gpg).
 
@@ -54,7 +54,14 @@ this account without sharing the password.
 
 The password is in `secrets/twitter.gpg`.
 
+## Slides.com
+
+https://slides.com/pyyyc
+
+The password is in `secrets/slides.gpg`.
+
 ## Slack
 
 Andrew has registered a free Slack account at pyyyc.slack.com. If people
-start using it, he will share admin access.
+start using it, he will share admin access. YYC Design might be better, as
+it’s a more general Calgary-wide slack for technology.
